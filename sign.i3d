@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="2" filename="sign_diffuse.png"/>
+    <File fileId="3" filename="$data/maps/textures/american/props/roadSignsUS_normal.png"/>
+    <File fileId="4" filename="sign_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="roadSigns_mat" materialId="5">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="sign.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="sign" translation="-793.276 60.4835 106.859" rotation="-0 65 -0" clipDistance="200" nodeId="9">
+      <Shape shapeId="1" name="sign_col" static="true" linearDamping="0.1" angularDamping="0.1" density="0.5" nodeId="10" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="2" name="sign_vis" clipDistance="200" nodeId="11" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

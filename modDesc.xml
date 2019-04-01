@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="42">
+    <author>Realismus Modding</author>
+    <version>1.0.0.1</version>
+    <title>
+        <en>Government Subsidy</en>
+        <de>Regierungssubventionierung</de>
+        <fr>Subvention Gouvernementale</fr>
+    </title>
+    <description>
+        <en>
+            <![CDATA[Place this on your farm to receive a government subsidy.]]>
+        </en>
+        <de>
+            <![CDATA[Platziert dieses Objekt auf Eurem Hof um einen Regierungszuschuss zu erhalten.]]>
+        </de>
+        <fr>
+            <![CDATA[Placez ceci sur votre ferme pour recevoir une subvention du gouvernement.]]>
+        </fr>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true" />
+
+    <storeItems>
+        <storeItem xmlFilename="subsidy.xml"/>
+    </storeItems>
+
+    <brands>
+        <brand name="GOVERNMENT" title="Government" image="brand_government.dds"/>
+    </brands>
+
+    <l10n>
+        <text name="shopItem_subsidy">
+            <en>Government subsidy</en>
+            <de>Regierungssubventionierung</de>
+            <fr>Subvention gouvernementale</fr>
+        </text>
+        <text name="function_subsidy">
+            <en>Place this on your farm to receive a government subsidy.</en>
+            <de>Platziert dieses Objekt auf Eurem Hof um einen Regierungszuschuss zu erhalten.</de>
+            <fr>Placez ceci sur votre ferme pour recevoir une subvention du gouvernement.</fr>
+        </text>
+    </l10n>
+</modDesc>

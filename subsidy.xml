@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_subsidy</name>
+        <functions>
+            <function>$l10n_function_subsidy</function>
+        </functions>
+        <image>store_subsidy.png</image>
+        <price>0</price>
+        <dailyUpkeep>0</dailyUpkeep>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>GOVERNMENT</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+        <vertexBufferMemoryUsage>4336</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>612</indexBufferMemoryUsage>
+        <textureMemoryUsage>8383224</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <placeableType>placeable</placeableType>
+    <filename>sign.i3d</filename>
+    <placement testSizeX="0.5" testSizeZ="0.5" sizeX="0.5" sizeZ="0.5" useRandomYRotation="false" useManualYRotation="true" />
+
+    <incomePerHour1>6250</incomePerHour1>
+    <incomePerHour2>41666</incomePerHour2>
+    <incomePerHour3>3333</incomePerHour3>
+
+</placeable>
