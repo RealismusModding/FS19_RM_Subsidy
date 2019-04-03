@@ -27,7 +27,7 @@
     <placement testSizeX="0.5" testSizeZ="0.5" sizeX="0.5" sizeZ="0.5" useRandomYRotation="false" useManualYRotation="true" />
 
     <incomePerHour1>6250</incomePerHour1>
-    <incomePerHour2>41666</incomePerHour2>
+    <incomePerHour2>4166</incomePerHour2>
     <incomePerHour3>3333</incomePerHour3>
 
 </placeable>
